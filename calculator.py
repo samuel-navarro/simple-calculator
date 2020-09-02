@@ -36,7 +36,7 @@ class ValueExpression:
 
 
 class ExponentExpression:
-    def __init__(self, lhs: ValueExpression, rhs: Optional[ValueExpression]):
+    def __init__(self, lhs: ValueExpression, rhs):
         self.lhs = lhs
         self.rhs = rhs
 
