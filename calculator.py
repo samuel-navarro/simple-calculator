@@ -7,9 +7,9 @@
 #     ProductExpression
 # 
 # ProductExpression:
-#     ValueExpression * ProductExpression
-#     ValueExpression / ProductExpression
-#     ValueExpression
+#     ExponentExpression * ProductExpression
+#     ExponentExpression / ProductExpression
+#     ExponentExpression
 #
 # ExponentExpression:
 #     ValueExpression ^ ExponentExpression
